@@ -19,6 +19,7 @@ class Response(Model):
 
 **Setup**
 * Download [Python](https://www.python.org/) and [Poetry](https://python-poetry.org/docs/)
+* Run ```poetry install``` to install all dependencies
 * Get an [OpenAI API key](https://platform.openai.com/) and YouTube Data v3 API key and place it in the .env file
 * Run ```python agent.py``` in your terminal
 
