@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "youtube-agent"
+version = "0.1.0"
+description = ""
+authors = ["Ryan <rqn.pham@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-api-python-client = "^2.160.0"
+python-dotenv = "^1.0.1"
+openai = "^1.60.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
